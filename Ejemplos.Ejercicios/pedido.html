@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <title>Toma de pedido</title>       
+    </head>
+    <body style="background-color: orangered;">
+        <h1>Aqui se hace el pedido</h1>
+        <form action="pediddo.js">
+            <label for="nombre1">Coloca tu nombre, Galactaquero</label><br>
+            <input type="text" id="nombre1" name="nombre1" placeholder="Nombre">
+            
+            <br><br>
+
+            <label for="mesa">Coloca el numero de mesa (Se encuentra en el servilletero)</label><br>
+            <input type="number" name="mesa" id="mesa" placeholder="Numero de Mesa">
+
+            <p>¿Para llevar o para aqui?</p>
+            
+            <input type="radio" id="aqui" name="aquiollevar" value="aqui">
+            <label for="aqui">Aqui</label><br>
+            <input type="radio" id="llevar" name="aquiollevar" value="llevar">
+            <label for="llevar">Llevar</label>
+
+            <p>¿Cuantos tacos vas a queree?</p>
+            <input type="radio" id="Tacos" name="pedir" value="tacos">
+            <label for="tacos">Tacos</label><br>
+            <select id="tacos" name="tacos">
+                <option value="Taco Mercurio">Taco Mercurio</option>
+                <option value="Taco Venus">Taco Venus</option>
+                <option value="Taco Tierra">Taco Tierra</option>
+                <option value="Taco Marte">Taco Marte</option>
+            </select><br>
+            <input type="radio" id="paquete" name="pedir" value="paquete">
+            <label for="paquete">Paquete</label><br>
+            <select id="tacos" name="tacos">
+                <option value="Paquete Via Lactea">Paquete Via Lactea</option>
+                <option value="Paquete Sistema Solar Externo">Paquete Sistema Solar Externo</option>
+                <option value="Paquete Cristal de plata">Paquete Cristal de plata</option>
+            </select><br>
+
+            <p>¿Que salsa quieres?</p>
+
+            <input type="radio" id="verde" name="salsas" value="verde">
+            <label for="verde">Verde</label><br>
+            <input type="radio" id="roja" name="salsas" value="roja">
+            <label for="roja">Roja</label><br>
+            <input type="radio" id="ambas" name="salsas" value="ambas">
+            <label for="ambas">Ambas</label>
+        </form>
+    </body>
+</html>  
