@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <title>PEDIDO DE PASTELES</title>
+        <style>
+            a{
+                color: beige;
+            }
+            img{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+            }
+             h1, h2{
+                 text-align: center;
+             }
+            body{
+                 background-color: #eec9cc;
+                 font-family: Arial, Helvetica, sans-serif;
+                }
+            hr{
+                background-color: blue;
+                height: 20px;
+            }
+            table {
+                background-color: blueviolet;
+                width: 100%;
+                border: 2px solid #000;
+            }
+            th, td {
+                width: 10%;
+                text-align: center;                
+                border: 2px solid #000;
+                color: #f1f1f1;                
+            }
+            header {
+                background-color: #eec9cc;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            footer{
+                background-color: rgb(20, 146, 168);
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+         </style>
+    </head>
+    <body>
+        <header>
+            <img src="./img/pasteleria.jpg" alt="logo pasteleria" width="150px">
+            <h1>HAGAMOS TU PEDIDO</h1>
+            <a href="./Pasteleria.html" >
+                <input type="button" id="pedido" value="Regresar">
+            </a>
+        </header>
+        <hr>
+        <form action="pasteles.js">
+            <h3>
+                <label for="nombre1">Coloca tu nombre completo.</label>
+            </h3>
+            <input type="text" id="nombre1" name="nombre1" placeholder="Nombre">
+            <h3>
+                <label for="email1">Coloca tu correo.</label>
+            </h3>
+            <input type="email" id="email1" name="email1" placeholder="Correo@Correo.com">
+            <h3>
+                <label for="tel1">Coloca tu telefono a 10 digitos.</label>
+            </h3>
+            <input type="tel" id="tel1" name="tel1" placeholder="Telefono" maxlength="10">
+        </form>
+        <hr>
+        <footer>
+            <h3>CONTACTO</h3>
+            <table>
+                <tr>
+                    <th>TELEFONO</th>
+                    <th>REDES</th>
+                </tr>
+                <tt>
+                    <td>55555555</td>
+                    <td>
+                        <ul>
+                            <li><a href="https://www.facebook.com/pasteleriacomandoestelar" target="blank">FACEBOOK</a></li>
+                            <li><a href="https://www.instagram.com/pasteleriacomandoestelar/" target="blank">INSTAGRAM</a></li>
+                        </ul>
+                    </td>
+                </tt>
+            </table>
+        </footer>
+    </body>
+</html>
